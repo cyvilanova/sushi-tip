@@ -1,0 +1,31 @@
+.tip-calculator-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 12px;
+}
+
+.tip-calculator-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.tip-calculator-label {
+  margin-right: 5px;
+}
+
+.tip-calculator-input {
+  max-width: 100px;
+  padding: 2px;
+  border: none;
+  border-bottom: 1px solid gray;
+  transition: 0.3s border-bottom ease;
+}
+
+.tip-calculator-input:focus {
+  border-bottom: 1px solid red;
+  outline: none;
+}

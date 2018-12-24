@@ -1,0 +1,11 @@
+<div class="tip-calculator-container">
+  <div class="tip-calculator-wrapper">
+    <label class="tip-calculator-label">Total pourboire: </label>
+    <input
+      type="number"
+      value={{total}}
+      oninput={{action "setTotal" value="target.value" }}
+      class="tip-calculator-input"
+    />
+  </div>
+</div>
